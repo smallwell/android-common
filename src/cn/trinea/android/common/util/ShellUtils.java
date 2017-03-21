@@ -157,6 +157,7 @@ public class ShellUtils {
                 String s;
                 while ((s = successResult.readLine()) != null) {
                     successMsg.append(s);
+                    successMsg.append('\n');
                 }
                 while ((s = errorResult.readLine()) != null) {
                     errorMsg.append(s);
